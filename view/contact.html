@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Marlena Johnson, Therapy, Therapist, 
+              Counseler, Counseling, Newberg, Or, Oregon Living Tree Wellness Center, 
+              LCSW, EMDR, Rapid Eye Movement desensitization, 
+              motivatioanl, interviewing, Addiction, Collabrative assessment 
+              and management of suicidality, cognative Behavioral Therapy, 
+              theraputic, equine, self-discovery, growth, healing.">
+        <link href="../styles/main.css" rel="stylesheet">
+        <link href="../styles/medium.css" rel="stylesheet">
+        <link href="../styles/large.css" rel="stylesheet">
+        <link href="../images/horse1.ico" type="image/x-icon" rel="icon">
+        <title>Liberty Reins</title>
+    </head>
+    <body>
+        <header id="headerid" class="navigation">
+            <img class="headerLeftImg" src="../images/horse3_small.jpg" height="200" width="300" alt="Golden Horse"/>
+            <a id="headera" href="../home.html"><h1 id="headerh1">Liberty Reins</h1></a>
+            <img class="headerRightImg" src="../images/horse3_small.jpg" height="200" width="300" alt="Golden Horse"/>
+        </header>
+        <nav>
+            <ul id="mainmenu" class="navigation">
+                <li><a href="../home.html">Home</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./map.html">Map</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main id="contactmain">
+            <div class="contacttopbox">
+                <div>
+                    <h3>Allison Girmai</h3> 
+                    <p>EGALA cerified Equine Specialist</p>
+                    <p>libertyreinsllc@hotmail.org</p>
+                    <p>708-567-5555</p>
+                </div>
+                <div>
+                    <h3>Marlena Johnson, LCSW</h3>
+                    <p>marlena.johnson.lcsw@hotmail.org</p>
+                    <p>Marlena Johnson</p>
+                    <p>503-431-5555</p>
+                </div>
+            </div>
+            <div class="contactmiddlebox">
+                <div class="contactmiddleleftbox">
+                    <h3>We would love to hear from you.</h3>
+                    <h4>All fields are required *</h4>
+                    <input type="text" id="firstname" placeholder="First Name *" required><br>
+                    <input type="text" id="lastname" placeholder="Last Name *" required><br>
+                    <input type="text" id="phone" placeholder="Phone Number"><br>
+                    <input type="email" id="clientemail" placeholder="rob@gmail.com *" required><br>
+                    <input type="text" id="message" placeholder="message *" required><br>
+                    <button onclick="AddPattern()">Save</button>
+                </div>
+                <div class="contactmiddlerightbox">
+                    <h4>This is for testing.</h4>
+                    <p>First Name : <span id="printMe11"></span></p>
+                    <p>Last Name: <span id="printMe12"></span></p>
+                    <p>Phone Number: <span id="printMe13"></span></p>
+                    <p>Email: <span id="printMe14"></span></p>
+                    <p>Message: <span id="printMe15"></span></p>
+                    <p>JSON object: <span id="printMe16"></span></p>
+                    <h4>This is what they will see.</h4>
+                    <p>Pattern Name: <span id="printMe17"></span></p>
+                    <p>Pattern Style: <span id="printMe18"></span></p>
+                    <p>Pattern Belt: <span id="printMe19"></span></p>
+                    <p>Movements: <span id="printMe20"></span></p>
+                    <p>Ready Stance: <span id="printMe21"></span></p>
+                </div>
+            </div>
+            <div class="contactbottombox">
+                <img class="cloud" src="../images/cloud.png" width="100" alt="Cloud"/>
+                <img class="sun" src="../images/sun_emoji.png" width="100" alt="Sun"/>
+                <div>
+                    <p>Be sure to dress for the weather.<p>
+                    <p>Currently at the stables:</p>
+                </div>
+                <div class="weatherbox">
+                    <div>Temp: <span id="temp"></span></div>
+                    <div>Weather: <span id="weather"></span></div>
+                    <div>Wind: <span id="wind"></span></div>
+                    <div>Humidity: <span id="humidity"></span></div>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <footer>
+                <div id="footerid">
+                    <p>Presented by Robert Johnson &copy;</p>
+                    <button onclick="ChangeThemeColor()">Change Theme Color</button><br>
+                    <p id="printme"></p>
+                </div>
+            </footer>
+        </footer>
+        <script src="../scripts/weather.js"></script>
+        <script src="../scripts/contact.js"></script>
+        <script src="../scripts/themecolor.js"></script>
+    </body>
+</html>

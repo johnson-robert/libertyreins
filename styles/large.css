@@ -1,0 +1,25 @@
+@media only screen and (min-width: 900px) {
+    /* body *******************************************************************/
+
+    body {
+        background-color: #ffffff;
+    }
+
+    /* main *******************************************************************/
+
+    main {
+        max-width: 1200px;
+        text-align:center;
+        margin: auto;
+        /*min-height: 44rem;*/
+    }
+    .mainbackgroundimage {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*min-height: 44rem;*/
+    }
+    #mapmain {
+        background-image: url("../images/wood-yellow-medium.jpeg");
+    }
+}
